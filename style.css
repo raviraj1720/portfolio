@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Josefin Sans', sans-serif;
+   background: #a98f8f;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-section, 
+.projects-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;;
+    width: 60%;
+}
+
+.home-container, .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.home-title, 
+.project-page-title{
+    font-size: 4.8rem;
+}
+
+.subtitle, 
+.project-title{
+    font-size: 2.4rem;
+}
+
+.profile-div {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.6rem;
+}
+
+.btn-nav {
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.project-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-project{
+    padding: 0.5rem 1rem;
+    align-self: flex-end;
+}
+
+.btn-project-1 {
+    align-self: flex-end;
+}
+
+.project-subtitle{
+    font-size: 1.8rem;
+    margin: 2rem 0 1.6rem 0;
+}
+
+.project-wrapper {
+    display: flex;
+    margin-top: 4rem;
+    gap: 3.2rem;
+}
+
+.project-img {
+    width: 30%;
+    border-radius: 5px;
+}
+
